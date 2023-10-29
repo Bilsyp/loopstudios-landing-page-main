@@ -1,0 +1,24 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  p {
+    @apply py-6 font-Alata text-VeryDarkGray leading-8 font-medium;
+  }
+  h2 {
+    @apply text-5xl uppercase font-thin  font-Jovi;
+  }
+}
+@layer components {
+  .box {
+    @apply py-40 px-10;
+  }
+}
