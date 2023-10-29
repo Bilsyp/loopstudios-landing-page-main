@@ -13,6 +13,9 @@ export default {
         Alata: ["Alata", "sans-serif"],
         Jovi: ["Josefin Sans", "sans-serif"],
       },
+      screens: {
+        desktop: "1024px",
+      },
     },
   },
   plugins: [],

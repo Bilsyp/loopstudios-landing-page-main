@@ -14,11 +14,32 @@
     @apply py-6 font-Alata text-VeryDarkGray leading-8 font-medium;
   }
   h2 {
-    @apply text-5xl uppercase font-thin  font-Jovi;
+    @apply text-3xl desktop:text-5xl uppercase font-thin  font-Jovi;
+  }
+  li {
+    @apply cursor-pointer hover:text-VeryDarkGray duration-300;
   }
 }
 @layer components {
   .box {
-    @apply py-40 px-10;
+    @apply py-20 px-10;
   }
+}
+
+.links-page li {
+  position: relative;
+}
+.links-page li::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: all 300ms;
+}
+
+.links-page li:hover:before {
+  width: 100%;
 }

@@ -2,7 +2,8 @@ export const dataImg = [
   {
     mobile: "/images/mobile/image-curiosity.jpg",
     desktop: "/images/desktop/image-curiosity.jpg",
-    caption: "curiosity",
+    caption: "the",
+    lastword: "curiosity",
   },
   {
     mobile: "/images/mobile/image-deep-earth.jpg",
@@ -19,13 +20,14 @@ export const dataImg = [
   {
     mobile: "/images/mobile/image-from-above.jpg",
     desktop: "/images/desktop/image-from-above.jpg",
-    caption: "from",
-    lastword: "above",
+    caption: "from up",
+    lastword: "above vr",
   },
   {
     mobile: "/images/mobile/image-grid.jpg",
     desktop: "/images/desktop/image-grid.jpg",
-    caption: "grid",
+    caption: "the",
+    lastword: "grid",
   },
   {
     mobile: "/images/mobile/image-night-arcade.jpg",
